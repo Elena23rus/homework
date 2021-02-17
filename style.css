@@ -6,7 +6,7 @@ body{
 }
 
 .wrap{
-	width: 1200px;
+	width: 120em;
 	margin: auto;
 }
 
@@ -26,15 +26,15 @@ body{
     width: 100%;
     padding: 0;
     /* background: red; */
-    padding:0 50px 0 50px;
+    padding:0 5em 0 5em;
   
-    height: 88px;
+    height: 8.8em;
     border: 1px solid #828282;
     align-items: center;
     margin: auto;  
 }
 .menu__link{
-    font-size: 18px;
+    font-size: 1.8em;
     color: #828282;
     text-decoration: none;
     font-weight: 600;
@@ -52,13 +52,14 @@ body{
 	background-size: cover;
 	border-radius: 1em;
 }
-
-
 .product__item{
     width: 350px;
 }
 .product__list{
-    margin-top: 70px;
+    margin-top: 7em;
     display: flex;
     justify-content: space-between;
+}
+.product__title{
+    font-size: 19px;
 }
